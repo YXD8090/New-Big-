@@ -24,8 +24,6 @@ $(function() {
                     }
                     //登录成功后将res.token 个人身份凭证保存在本地
                     localStorage.setItem('token', res.token);
-                    //跳转到首页
-                    location.href = './index.html'
                 })
         })
         //表单验证
